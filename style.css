@@ -52,6 +52,10 @@ header{position:relative;justify-content:center;height:88px;border-color:#e8e6e3
 .board-row .meta .tag{display:inline-block;background:#191410;color:#fff;font-size:9px;padding:2px 7px;border-radius:20px;margin-right:8px;letter-spacing:1px}
 .board-row time{color:#a39c92;font-size:11px;white-space:nowrap}
 .board-row.fresh{background:#f6f5f3}
+.board-row.rank-1 .meta b,.board-row.rank-2 .meta b,.board-row.rank-3 .meta b{display:inline-block;padding:2px 10px;border-radius:999px;border:2px solid}
+.board-row.rank-1 .meta b{border-color:#d4a017;background:linear-gradient(135deg,#fff8dc,#f2c14e);color:#6d5200}
+.board-row.rank-2 .meta b{border-color:#9aa0a6;background:linear-gradient(135deg,#f8f9fa,#c9ced6);color:#4a5568}
+.board-row.rank-3 .meta b{border-color:#b87333;background:linear-gradient(135deg,#fbeadd,#d99a5b);color:#6b3a0a}
 .board-empty{padding:28px 0 12px;text-align:center;color:#77736e;font-size:12px;line-height:2}
 .board-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px}
 .board-note{font-size:10px;color:#a39c92;line-height:1.8}
